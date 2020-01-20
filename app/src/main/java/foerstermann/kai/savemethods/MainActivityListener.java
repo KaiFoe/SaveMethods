@@ -1,6 +1,7 @@
 package foerstermann.kai.savemethods;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.View;
 
@@ -28,6 +29,10 @@ public class MainActivityListener implements View.OnClickListener {
                 break;
             case R.id.btnLoadFile:
                 mainActivity.txtvFileOutput.setText(loadFile(mainActivity));
+                break;
+            case R.id.btnSecondActivity:
+                Intent intent = new Intent(mainActivity, SecondActivity.class);
+                mainActivity.startActivity(intent);
         }
     }
 

@@ -24,4 +24,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ausgabe der Datei" />
+
+    <Button
+        android:id="@+id/btnSecondActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zur 2. Activity wechseln" />
 </LinearLayout>

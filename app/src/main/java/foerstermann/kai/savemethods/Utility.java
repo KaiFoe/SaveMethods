@@ -228,6 +228,4 @@ public class Utility {
         }
         return createQuotesFromJSONString(jsonString);
     }
-
-
 }

@@ -9,7 +9,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     MainActivityListener mainActivityListener;
-    Button btnSaveFile, btnLoadFile;
+    Button btnSaveFile, btnLoadFile, btnSecondActivity;
     TextView txtvFileOutput;
 
     @Override
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnSaveFile = findViewById(R.id.btnSaveFile);
         btnLoadFile = findViewById(R.id.btnLoadFile);
+        btnSecondActivity = findViewById(R.id.btnSecondActivity);
 
         txtvFileOutput = findViewById(R.id.txtvFileOutput);
 
@@ -26,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
 
         btnSaveFile.setOnClickListener(mainActivityListener);
         btnLoadFile.setOnClickListener(mainActivityListener);
+        btnSecondActivity.setOnClickListener(mainActivityListener);
     }
 }
