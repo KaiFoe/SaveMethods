@@ -123,7 +123,7 @@ public class Utility {
         return receiveQuoteList;
     }
 
-    public static List<Quote> createQutesFromXMLString(String xmlString) {
+    public static List<Quote> createQuotesFromXMLString(String xmlString) {
 
         List<Quote> receiveQuoteList = new ArrayList<>();
 
